@@ -1,11 +1,11 @@
 import java.util.*;
 
-public class Whatever {
+public class CharCombo {
 	//the amount of times letter combo appears
 	private int countValue;
 	private ArrayList <Character> list;
 	
-	public Whatever() {
+	public CharCombo() {
 		countValue = 0;
 		list = new ArrayList <Character> ();
 	}
