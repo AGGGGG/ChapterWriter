@@ -18,7 +18,7 @@ public class Input {
 		System.out.println ("How many characters?");
 		numCharacters = scan.nextInt();
 		
-		GreatGatsby2 gg2 = new GreatGatsby2 (readFile, writeFile, markovOrder, numCharacters);
+		ChapterWriter chw = new ChapterWriter (readFile, writeFile, markovOrder, numCharacters);
 	}
 	
 	public static int getMarkovOrder () { return markovOrder; }
