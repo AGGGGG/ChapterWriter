@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class GreatGatsby2 {
+public class ChapterWriter {
 	//go through the whole input book
 	//store 'order' letter words in hashtable as keys for CharCombo values
 	//write file with numChars characters using hashtable and chooseNext() method
