@@ -8,6 +8,7 @@ public class Input {
 	private static int numCharacters;
 	
 	public static void main (String [] args) throws IOException {
+		//get inputs
 		Scanner scan = new Scanner (System.in);
 		System.out.println ("file name to write to:");
 		writeFile = scan.next();
@@ -18,6 +19,7 @@ public class Input {
 		System.out.println ("How many characters?");
 		numCharacters = scan.nextInt();
 		
+		//run code to write new chapter of book
 		ChapterWriter chw = new ChapterWriter (readFile, writeFile, markovOrder, numCharacters);
 	}
 	
